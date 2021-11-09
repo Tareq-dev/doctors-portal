@@ -1,0 +1,10 @@
+.footer-container {
+  background-image: url("../../images/footer-bg.png");
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.footer-container a {
+  text-decoration: none;
+  color: rgb(131, 128, 128);
+  font-weight: 600;
+}
