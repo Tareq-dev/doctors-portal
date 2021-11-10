@@ -12,9 +12,6 @@ const HeaderMain = () => {
          <div className="col-md-6">
            <img src={chair} alt="" className="img-fluid" />
          </div>
-        
-
-
         </main>
      );
 };

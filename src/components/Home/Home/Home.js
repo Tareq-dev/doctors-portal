@@ -2,9 +2,9 @@ import React from 'react';
 import Blogs from '../../BlogPost/Blogs';
 import Doctors from '../../Doctors/Doctors';
 import Feature from '../../Feature/Feature';
-import Footer from '../../Footer/Footer';
 import Form from '../../Form/Form';
 import MakeAppointment from '../../MakeAppointment/MakeAppointment';
+import Footer from '../../Shared/Footer/Footer';
 import Testimonial from '../../Testimonial/Testimonial';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
@@ -20,7 +20,7 @@ const Home = () => {
                <Blogs></Blogs>
                <Doctors></Doctors>
                <Form></Form>
-               <Footer></Footer>
+              <Footer></Footer>
           </div>
      );
 };

@@ -1,24 +1,24 @@
 import React from 'react';
 import doctor from '../../images/doctor-small.png';
 
-const doctorsData = [
-     {
-          img: doctor,
-          name:"Dr. Caudi",
-          phone:"+6254 545 26545"
-     },
-     {
-          img: doctor,
-          name:"Dr. Caudi",
-          phone:"+6254 545 26545"
-     },
+// const doctorsData = [
+//      {
+//           img: doctor,
+//           name:"Dr. Caudi",
+//           phone:"+6254 545 26545"
+//      },
+//      {
+//           img: doctor,
+//           name:"Dr. Caudi",
+//           phone:"+6254 545 26545"
+//      },
 
-     {
-          img:doctor,
-          name:"Dr. Caudi",
-          phone:"+6254 545 26545"
-     }
-]
+//      {
+//           img:doctor,
+//           name:"Dr. Caudi",
+//           phone:"+6254 545 26545"
+//      }
+// ]
 
 const Doctors = ({doctorsData}) => {
      return (
