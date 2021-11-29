@@ -8,6 +8,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Dashboard from "./components/DashBoard/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
    </Route>
     <Route path="/appointment">
         <Appointment />
+    </Route>
+    <Route path="/dashboard/appointment">
+        <Dashboard />
     </Route>
     <Route path="/login">
       <Login />

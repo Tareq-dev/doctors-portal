@@ -1,9 +1,12 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Footer.css';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagramSquare, faLinkedinIn, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 const Facebook = <FontAwesomeIcon className="social" icon={faFacebook} />
+const LinkedinIn = <FontAwesomeIcon className="social" icon={faLinkedinIn} />
+const Instagram = <FontAwesomeIcon className="social" icon={faInstagramSquare} />
+const Tiktok = <FontAwesomeIcon className="social" icon={faTiktok} />
 
 
 const Footer = () => {
@@ -37,6 +40,12 @@ const Footer = () => {
         <h4 className="text-primary mb-4">Our Adrees</h4>
         <a href="/#" className=""><p>Emergency Dental Care</p></a>
         <a href="/#" className=""><p>Check up</p>{Facebook}</a>
+        <br/>
+        <a href="/#" >{Instagram}</a>
+        <br/>
+        <a href="/#" >{LinkedinIn}</a>
+        <br/>
+        <a href="/#" >{Tiktok}</a>
        </div> 
        </div>
        <div className="text-center">
