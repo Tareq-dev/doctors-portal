@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faClock} from '@fortawesome/free-solid-svg-icons'
 import './Footer.css';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
-const Facebook = <FontAwesomeIcon icon={faClock} />
+const Facebook = <FontAwesomeIcon className="social" icon={faFacebook} />
 
 
 const Footer = () => {
